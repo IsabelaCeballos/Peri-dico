@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Glegoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Glegoo&family=Truculenta:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Glegoo&family=Sansita&family=Truculenta:wght@700&display=swap');
+
+.newsletter{
+    width: 800px;
+    height: 765px;
+    border: solid 3px black;
+   margin: auto;
+   background-color: white;
+}
+body{
+    background-color: #fcf876;
+}
+.name{
+    font-family: 'Acme', Arial;
+    display: flex;
+    font-size: 54px;
+    justify-content: center;
+    letter-spacing: 2px;
+    padding: 0%;
+}
+.name p{
+    margin: 0%;
+}
+
+.info{
+    font-family: 'Glegoo', Arial;
+    display: flex;
+    font-size: 30px;
+    justify-content: space-between;
+    margin: auto;
+}
+.info p{
+    margin: 0%;
+}
+.title{
+    display: flex;
+    font-size: 43px;
+    justify-content: center;
+    font-family: 'Truculenta', Arial;
+}
+.title h1 span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title h1{
+    margin: 0%;
+    margin-top: 0%;
+}
+.title h1 span{
+    padding: 0%;
+    margin-top: 0%;
+}
+
+.content{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+hr {
+    height: 2px;
+    max-width: 100%;
+    background-color:black;
+    margin: 0%;
+  }
+.left-side h2{
+    font-family: 'Sansita', Arial;
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    flex-direction: column;
+}
+.left-side h2 span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left-side h2{
+    margin: 0%;
+}
+
+.columna{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:7px ;
+    margin-right:10px ;
+    margin-right: 10px;
+}
+.columna p{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.content p{
+    margin: 0%;
+}
+img{
+    width: 400px;
+    height: 300px;
+}
